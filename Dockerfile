@@ -1,4 +1,4 @@
-FROM mysql:5.6
+FROM mysql:5.6.34
 
 # switch mysql user to root
 RUN sed -i "s/= mysql/= root/g" /etc/mysql/my.cnf
